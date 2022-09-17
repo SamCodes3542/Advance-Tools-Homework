@@ -138,7 +138,7 @@ p {
   text-decoration: none;
   white-space: nowrap;
 }
-@media (max-width: 390px) {
+@media (max-width: 600px) {
   h1 {
     font-size: 30px;
   }
@@ -147,6 +147,16 @@ p {
   }
   h3 {
     font-size: 18px;
+  }
+  .image {
+    display: none;
+  }
+  .paragraphs,
+  .app-titles,
+  .app-links {
+    display: inline-block;
+    text-align: center;
+    justify-content: center;
   }
   .navigation-links a {
     padding: 10px 15px;
@@ -159,6 +169,6 @@ p {
   }
   .app-link {
     margin: 10px 50px;
-    align-items: center;
+    padding: 15px 20px;
   }
 }
