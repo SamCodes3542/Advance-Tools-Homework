@@ -155,6 +155,9 @@ p {
   .image {
     display: none;
   }
+  img {
+    display: none;
+  }
   .paragraphs,
   .app-titles,
   .app-link {
