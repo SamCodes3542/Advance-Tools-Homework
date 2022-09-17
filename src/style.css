@@ -148,12 +148,16 @@ p {
   h3 {
     font-size: 18px;
   }
+  .comtainer {
+    display: block;
+    align-items: center;
+  }
   .image {
     display: none;
   }
   .paragraphs,
   .app-titles,
-  .app-links {
+  .app-link {
     display: inline-block;
     text-align: center;
     justify-content: center;
@@ -168,7 +172,8 @@ p {
     margin-left: 4rem;
   }
   .app-link {
-    margin: 10px 50px;
-    padding: 15px 20px;
+    margin: 5px 20px;
+    padding: 15px 10px;
+    justify-content: center;
   }
 }
