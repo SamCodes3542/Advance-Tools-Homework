@@ -138,3 +138,27 @@ p {
   text-decoration: none;
   white-space: nowrap;
 }
+@media (max-width: 390px) {
+  h1 {
+    font-size: 30px;
+  }
+  h2 {
+    font-size: 24px;
+  }
+  h3 {
+    font-size: 18px;
+  }
+  .navigation-links a {
+    padding: 10px 15px;
+    text-decoration: none;
+    text-transform: capitalize;
+    justify-content: center;
+  }
+  .navbar-brand {
+    margin-left: 4rem;
+  }
+  .app-link {
+    margin: 10px 50px;
+    align-items: center;
+  }
+}
