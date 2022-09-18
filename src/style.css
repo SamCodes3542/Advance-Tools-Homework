@@ -148,10 +148,7 @@ p {
   h3 {
     font-size: 18px;
   }
-  .comtainer {
-    display: block;
-    align-items: center;
-  }
+
   .image {
     display: none;
   }
@@ -161,9 +158,8 @@ p {
   .paragraphs,
   .app-titles,
   .app-link {
-    display: inline-block;
+    display: block;
     text-align: center;
-    justify-content: center;
     width: 100%;
   }
   .navigation-links a {
@@ -176,9 +172,9 @@ p {
     margin-left: 4rem;
   }
   .app-link {
-    margin: 5px 5px;
-    padding: 15px 10px;
-    justify-content: center;
+    margin: 0px auto;
+
+    text-align: center;
   }
   .col-6 {
     width: 100%;
